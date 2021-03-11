@@ -34,6 +34,7 @@
     display: flex;
     align-items: center;
     background-color: #1976d2;
+    background: linear-gradient(162deg, #20378a 0%, #1976d2 50%);
     color: white;
     font-weight: 600;
   }
@@ -53,8 +54,8 @@
 
   .content {
     display: flex;
-    margin: 82px auto 32px;
-    padding: 0 16px;
+    margin: 60px auto 32px;
+    padding: 0;
     max-width: 960px;
     flex-direction: column;
     align-items: center;
@@ -215,7 +216,9 @@
     margin-top: 8px;
     display: flex;
     align-items: center;
+    justify-content: center;
     line-height: 20px;
+    padding: 2rem;
   }
 
   footer a {
@@ -315,7 +318,10 @@
   </a>
 </div>
 <div class="content" role="main">
-  <img alt="farm land" src="../assets/images/2.5AcresDream-corpped.png" />
+  <!-- <h2>
+    Welcome to Hemadri Natural Farms
+  </h2> -->
+  <img alt="farm land" style="width: 100%" src="../assets/images/2.5AcresDream-corpped.png" />
 </div>
 <router-outlet></router-outlet>
 
