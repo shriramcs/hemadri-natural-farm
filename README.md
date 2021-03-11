@@ -1,5 +1,6 @@
-# HemadriNaturalFarm
+# Hemadri Natural Farm
 
+This is placeholder website for my farm.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 ## Development server
